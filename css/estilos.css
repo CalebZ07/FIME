@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header.principal {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 0; 
+    position: fixed; 
+    width: 100%;
+    z-index: 1000;
+}
+
+header.principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header.principal ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header.principal ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header.principal ul li a:hover {
+    color: #007BFF;
+}
+
+.imagen-codigo {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imagen-codigo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 550px;
+    padding-bottom: 15px;
+    object-fit: cover;
+}
+
+.texto-sobre-imagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+.texto-sobre-imagen h2, 
+.texto-sobre-imagen p {
+    color: rgb(255, 255, 255); 
+    text-shadow: 2px 2px 4px rgba(56, 56, 56, 0.8);
+}
+
+.texto-sobre-imagen h2 {
+    margin: 0 0 15px 0;
+    font-size: 36px;
+}
+
+.texto-sobre-imagen p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.portafolio {
+    padding: 50px 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.portafolio h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.galeria-portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.proyecto {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+    max-width: 300px;
+}
+
+.proyecto img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.proyecto h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.proyecto p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.redes-sociales {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.redes-sociales h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.redes-sociales p, 
+.redes-sociales ul {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.redes-sociales ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.redes-sociales ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.redes-sociales ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.redes-sociales ul li a:hover {
+    color: #007BFF;
+}
+
+.contacto {
+    padding: 80px 0 50px; /* Ajustado para compensar el header fijo */
+    background-color: #fff;
+    color: #333;
+    margin-top: 60px; /* Compensa el espacio ocupado por el header fijo */
+}
+
+.contacto h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contacto p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contacto input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contacto input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
